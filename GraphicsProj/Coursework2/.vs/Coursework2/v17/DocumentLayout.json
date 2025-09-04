@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kleid\\OneDrive - The University of Nottingham\\COMP3011\\Coursework2Submission\\Coursework2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B2B74E-BE55-4FBC-BF67-64230D228B11}|Coursework2\\Coursework2.vcxproj|C:\\Users\\kleid\\OneDrive - The University of Nottingham\\COMP3011\\Coursework2Submission\\Coursework2\\Coursework2\\Coursework2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E2B2B74E-BE55-4FBC-BF67-64230D228B11}|Coursework2\\Coursework2.vcxproj|solutionrelative:Coursework2\\Coursework2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B2B74E-BE55-4FBC-BF67-64230D228B11}|Coursework2\\Coursework2.vcxproj|C:\\Users\\kleid\\OneDrive - The University of Nottingham\\COMP3011\\Coursework2Submission\\Coursework2\\Coursework2\\basic.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E2B2B74E-BE55-4FBC-BF67-64230D228B11}|Coursework2\\Coursework2.vcxproj|solutionrelative:Coursework2\\basic.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B2B74E-BE55-4FBC-BF67-64230D228B11}|Coursework2\\Coursework2.vcxproj|C:\\Users\\kleid\\OneDrive - The University of Nottingham\\COMP3011\\Coursework2Submission\\Coursework2\\Coursework2\\basic.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E2B2B74E-BE55-4FBC-BF67-64230D228B11}|Coursework2\\Coursework2.vcxproj|solutionrelative:Coursework2\\basic.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "basic.vert",
+              "DocumentMoniker": "C:\\Users\\kleid\\OneDrive - The University of Nottingham\\COMP3011\\Coursework2Submission\\Coursework2\\Coursework2\\basic.vert",
+              "RelativeDocumentMoniker": "Coursework2\\basic.vert",
+              "ToolTip": "C:\\Users\\kleid\\OneDrive - The University of Nottingham\\COMP3011\\Coursework2Submission\\Coursework2\\Coursework2\\basic.vert",
+              "RelativeToolTip": "Coursework2\\basic.vert",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-29T09:17:01.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "basic.frag",
+              "DocumentMoniker": "C:\\Users\\kleid\\OneDrive - The University of Nottingham\\COMP3011\\Coursework2Submission\\Coursework2\\Coursework2\\basic.frag",
+              "RelativeDocumentMoniker": "Coursework2\\basic.frag",
+              "ToolTip": "C:\\Users\\kleid\\OneDrive - The University of Nottingham\\COMP3011\\Coursework2Submission\\Coursework2\\Coursework2\\basic.frag",
+              "RelativeToolTip": "Coursework2\\basic.frag",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-29T09:17:00.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Coursework2.cpp",
+              "DocumentMoniker": "C:\\Users\\kleid\\OneDrive - The University of Nottingham\\COMP3011\\Coursework2Submission\\Coursework2\\Coursework2\\Coursework2.cpp",
+              "RelativeDocumentMoniker": "Coursework2\\Coursework2.cpp",
+              "ToolTip": "C:\\Users\\kleid\\OneDrive - The University of Nottingham\\COMP3011\\Coursework2Submission\\Coursework2\\Coursework2\\Coursework2.cpp",
+              "RelativeToolTip": "Coursework2\\Coursework2.cpp",
+              "ViewState": "AgIAAA8CAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-15T23:19:15.633Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

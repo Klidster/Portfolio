@@ -1,0 +1,40 @@
+﻿  gl3w.c
+  Coursework2.cpp
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\file.h(17,11): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data
+  (compiling source file 'Coursework2.cpp')
+  
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\casteljau.h(35,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Coursework2.cpp')
+  
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\do_not_edit.h(83,34): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\do_not_edit.h(83,34): warning C4267:         with
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\do_not_edit.h(83,34): warning C4267:         [
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\do_not_edit.h(83,34): warning C4267:             _Ty=unsigned int
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\do_not_edit.h(83,34): warning C4267:         ]
+  (compiling source file 'Coursework2.cpp')
+  
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\do_not_edit.h(140,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'unsigned __int64'
+  (compiling source file 'Coursework2.cpp')
+      C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\do_not_edit.h(140,9):
+      consider using '%zd' in the format string
+  
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\do_not_edit.h(194,87): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+  (compiling source file 'Coursework2.cpp')
+  
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\do_not_edit.h(195,87): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+  (compiling source file 'Coursework2.cpp')
+  
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\do_not_edit.h(196,87): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+  (compiling source file 'Coursework2.cpp')
+  
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\Coursework2\Coursework2\Coursework2.cpp(98,21): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\Coursework2\Coursework2\Coursework2.cpp(302,28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\Coursework2\Coursework2\Coursework2.cpp(488,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\Coursework2\Coursework2\Coursework2.cpp(493,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\Coursework2\Coursework2\Coursework2.cpp(530,62): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\Coursework2\Coursework2\Coursework2.cpp(631,58): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\bitmap.h(34,1): warning C4715: 'savebitmap': not all control paths return a value
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\do_not_edit.h(142,1): warning C4715: 'obj_parse': not all control paths return a value
+C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\include\do_not_edit.h(243,1): warning C4715: 'savebitmap': not all control paths return a value
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Coursework2.vcxproj -> C:\Users\kleid\OneDrive - The University of Nottingham\COMP3011\Coursework2Submission\Coursework2\x64\Debug\Coursework2.exe

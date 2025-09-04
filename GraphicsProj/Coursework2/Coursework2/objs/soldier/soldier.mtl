@@ -1,0 +1,89 @@
+# Blender 4.4.3 MTL File: 'None'
+# www.blender.org
+
+newmtl Clotch_up.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Clotch_up_baseColor.png
+map_Bump -bm 1.000000 C:/Clotch_up_normal.png
+
+newmtl Cobura.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Cobura_baseColor.png
+map_Bump -bm 1.000000 C:/Cobura_normal.png
+
+newmtl Hand.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Hand_baseColor.png
+map_Bump -bm 1.000000 C:/Hand_normal.png
+
+newmtl Material_105.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_105_baseColor.png
+map_Bump -bm 1.000000 C:/Material_105_normal.png
+
+newmtl Material_106.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd C:/Material_106_baseColor.png
+map_d C:/Material_106_baseColor.png
+
+newmtl Material_107.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Tactical_belt_baseColor.png
+map_Bump -bm 1.000000 C:/Tactical_belt_normal.png
+
+newmtl Material_108.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Material_108_baseColor.png
+map_Bump -bm 1.000000 C:/Material_108_normal.png
+
+newmtl Tactical_belt.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Tactical_belt_baseColor.png
+map_Bump -bm 1.000000 C:/Tactical_belt_normal.png
