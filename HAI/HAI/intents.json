@@ -1,0 +1,25 @@
+{
+    "intents": [
+      {
+        "intent": "greeting",
+        "phrases": ["hello", "hi", "hey"],
+        "response": "Hello {name}! How can I assist you today?"
+      },
+      {
+        "intent": "small_talk",
+        "phrases": ["how are you", "what's up", "how's it going"],
+        "response": "I'm doing great, thanks for asking! How about you?"
+      },
+      {
+        "intent": "discoverability",
+        "phrases": ["what can you do", "help", "commands"],
+        "response": "I can help you with the following: greeting you, having small talk, answering questions, and recalling your name."
+      },
+      {
+        "intent": "name_recognition",
+        "phrases": ["what is my name", "do you know my name"],
+        "response": "Your name is {name}."
+      }
+    ]
+  }
+  
