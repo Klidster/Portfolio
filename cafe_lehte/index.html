@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Café Lehte</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="header">
@@ -13,7 +16,7 @@
         <img src="images/logo.png" alt="Café Lehte logo">
       </a>
       <ul class="nav-links">
-        <li><a href="#menu">Menu</a></li>
+        <li><a href="#home">Menu</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -24,9 +27,18 @@
   <main>
     <section class="hero" id="home">
       <div class="hero-text">
-        <h2>Fresh Coffee, Cosy Vibes</h2>
+        <h1 class="hero-title">Café Lehte</h1>
+        <img src="images/logo.png" alt="Café Lehte logo" class="hero-logo">
         <p>Your perfect place to study, relax, and sip something warm.</p>
-        <a href="#menu" class="btn">View Menu</a>
+        <div class="hero-cards">
+          <a href="coffee.html" class="hero-card coffee-card">
+            <span>Coffee</span>
+          </a>
+
+          <a href="pastries.html" class="hero-card pastries-card">
+            <span>Pastries</span>
+          </a>
+        </div>
       </div>
     </section>
 
