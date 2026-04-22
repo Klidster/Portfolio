@@ -9,12 +9,22 @@ body {
   line-height: 1.6;
   background-color: #f8f5f2;
   color: #2e221b;
+  padding-top: 90px;
 }
 
 .header {
   background-color: #4b2e2b;
   color: white;
   padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+section {
+  scroll-margin-top: 100px;
 }
 
 .navbar {
@@ -25,135 +35,15 @@ body {
 }
 
 .logo {
-  font-size: 1.5rem;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-}
-
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  color: white;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
-.hero {
-  min-height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 2rem;
-  background-color: #e9ded4;
-}
-
-.hero h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.hero p {
-  margin-bottom: 1rem;
-}
-
-.btn {
   display: inline-block;
-  background-color: #6f4e37;
-  color: white;
-  padding: 0.75rem 1.25rem;
-  text-decoration: none;
-  border-radius: 6px;
+  background: transparent;
 }
 
-.menu,
-.about,
-.contact {
-  padding: 4rem 2rem;
-  text-align: center;
-}
-
-.menu-items {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 2rem;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: white;
-  padding: 1.5rem;
-  width: 250px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-}
-
-.footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #4b2e2b;
-  color: white;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: #4b2e2b;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 200px;
-    padding: 1rem;
-  }
-
-  .nav-links.show {
-    display: flex;
-  }
-}* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f8f5f2;
-  color: #2e221b;
-}
-
-.header {
-  background-color: #4b2e2b;
-  color: white;
-  padding: 1rem 2rem;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
-
-.logo {
-  font-size: 1.5rem;
+.logo img {
+  height: 60px;
+  width: auto;
+  display: block;
+  background: transparent;
 }
 
 .nav-links {
