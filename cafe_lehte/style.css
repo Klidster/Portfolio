@@ -149,6 +149,109 @@ section {
   background-image: url("images/pastries.jpg");
 }
 
+.menu-page {
+  padding: 3rem 2rem 4rem;
+}
+
+.item-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #4b2e2b;
+  margin-bottom: 2rem;
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+
+.item-card {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  background: white;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.item-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+}
+
+.item-toggle {
+  width: 100%;
+  height: 280px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding: 1.25rem;
+}
+
+.item-toggle::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.item-name {
+  position: relative;
+  z-index: 1;
+  color: #f8f5f2;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.item-description {
+  display: none;
+  padding: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #2e221b;
+  background-color: #fffdfb;
+}
+
+.item-card.active .item-description {
+  display: block;
+}
+
+.coffee-latte .item-toggle {
+  background-image: url("images/latte.jpg");
+}
+
+.coffee-mocha .item-toggle {
+  background-image: url("images/mocha.jpg");
+}
+
+.coffee-cappuccino .item-toggle {
+  background-image: url("images/cappuccino.jpg");
+}
+
+.pastry-croissant .item-toggle {
+  background-image: url("images/croissant.jpg");
+}
+
+.pastry-roll .item-toggle {
+  background-image: url("images/cinnamon-roll.jpg");
+}
+
+.pastry-tart .item-toggle {
+  background-image: url("images/berry-tart.jpg");
+}
+
 .about,
 .contact {
   padding: 4rem 2rem;
