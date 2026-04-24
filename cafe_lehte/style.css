@@ -156,6 +156,8 @@ section {
 
 .menu-page {
   padding: 3rem 2rem 4rem;
+  background-color: #e9ded4;
+  min-height: 100vh;
 }
 
 .item-section {
@@ -215,7 +217,7 @@ section {
 .item-name {
   position: relative;
   z-index: 1;
-  color: #f8f5f2;
+  color: #e9ded4;
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -226,7 +228,7 @@ section {
   font-size: 1rem;
   line-height: 1.7;
   color: #2e221b;
-  background-color: #fffdfb;
+  background-color: #e9ded4;
 }
 
 .item-card.active .item-description {
@@ -245,6 +247,30 @@ section {
   background-image: url("images/cappuccino.jpg");
 }
 
+.coffee-flatwhite .item-toggle {
+  background-image: url("images/flat-white.jpg");
+}
+
+.coffee-americano .item-toggle {
+  background-image: url("images/americano.jpg");
+}
+
+.coffee-hazelnutlatte .item-toggle {
+  background-image: url("images/hazelnut-latte.jpg");
+}
+
+.coffee-espresso .item-toggle {
+  background-image: url("images/espresso.jpg");
+}
+
+.coffee-macchiato .item-toggle {
+  background-image: url("images/macchiato.jpg");
+}
+
+.coffee-icedlatte .item-toggle {
+  background-image: url("images/iced-latte.jpg");
+}
+
 .pastry-croissant .item-toggle {
   background-image: url("images/croissant.jpg");
 }
@@ -255,6 +281,30 @@ section {
 
 .pastry-tart .item-toggle {
   background-image: url("images/berry-tart.jpg");
+}
+
+.pastry-painauchocolat .item-toggle {
+  background-image: url("images/pain-au-chocolat.jpg");
+}
+
+.pastry-almonddanish .item-toggle {
+  background-image: url("images/almond-danish.jpg");
+}
+
+.pastry-blueberrymuffin .item-toggle {
+  background-image: url("images/blueberry-muffin.jpg");
+}
+
+.pastry-chocolatetwist .item-toggle {
+  background-image: url("images/chocolate-twist.jpg");
+}
+
+.pastry-lemonslice .item-toggle {
+  background-image: url("images/lemon-slice.jpg");
+}
+
+.pastry-appleturnover .item-toggle {
+  background-image: url("images/apple-turnover.jpg");
 }
 
 .about,
