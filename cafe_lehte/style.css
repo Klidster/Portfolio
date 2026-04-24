@@ -55,6 +55,11 @@ section {
 .nav-links a {
   color: #e9ded4;
   text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.nav-links a:hover {
+  color: #d6a77a;
 }
 
 .menu-toggle {
