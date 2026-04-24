@@ -78,7 +78,8 @@ section {
   align-items: center;
   text-align: center;
   padding: 2rem;
-  background-color: #e9ded4;
+  background: linear-gradient(rgba(233, 222, 212, 0.78), rgba(233, 222, 212, 0.78)),
+              url("images/home-bg.jpg") center/cover no-repeat;
 }
 
 .hero-title {
@@ -154,10 +155,18 @@ section {
   background-image: url("images/pastries.jpg");
 }
 
+.coffee-page {
+  background: url("images/coffee-bg.jpg") center / cover fixed no-repeat;
+}
+
+.pastries-page {
+  background: url("images/pastries-bg.jpg") center / cover fixed no-repeat;
+}
+
 .menu-page {
   padding: 3rem 2rem 4rem;
-  background-color: #e9ded4;
   min-height: 100vh;
+  background-color: rgba(248, 245, 242, 0.85);
 }
 
 .item-section {
@@ -314,24 +323,46 @@ section {
 }
 
 .about {
-  max-width: 900px;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  align-items: stretch;
+  max-width: 1200px;
+  margin: 4rem auto;
+  background-color: #f3ece6;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 0;
+  text-align: left;
 }
 
-.about h2 {
-  font-size: 2.2rem;
+.about-image {
+  min-height: 340px;
+  background: url("images/about-bg.jpg") center/cover no-repeat;
+}
+
+.about-content {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-content h2 {
+  font-size: 2.4rem;
   margin-bottom: 1.5rem;
   color: #4b2e2b;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
-.about p {
-  max-width: 720px;
-  margin: 0 auto 1.25rem;
-  font-size: 1.08rem;
+.about-content p {
+  margin-bottom: 1.25rem;
+  font-size: 1.05rem;
   line-height: 1.9;
+  max-width: 100%;
 }
 
-.about p:last-of-type {
+.about-content p:last-of-type {
   margin-bottom: 0;
 }
 
@@ -367,16 +398,25 @@ section {
     display: flex;
   }
 
-  .about {
-    padding: 3rem 1.5rem;
-  }
+.about {
+  grid-template-columns: 1fr;
+  margin: 3rem 1.5rem;
+}
 
-  .about h2 {
-    font-size: 1.9rem;
-  }
+.about-image {
+  min-height: 280px;
+}
 
-  .about p {
-    font-size: 1rem;
-    line-height: 1.8;
-  }
+.about-content {
+  padding: 2rem 1.5rem;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+}
+
+.about-content p {
+  font-size: 1rem;
+  line-height: 1.8;
+}
 }
