@@ -1,0 +1,19 @@
+.projects {
+  padding: 4rem 2rem;
+  background-color: #f8f5f2;
+}
+
+.computer-card,
+.computer-vision-img {
+  background-image: url("assets/classification confusion matrix.png");
+}
+
+.game-card,
+.game-img {
+  background-image: url("assets/games.png");
+}
+
+.graphics-card,
+.graphics-img {
+  background-image: url("assets/graphics1.png");
+}
