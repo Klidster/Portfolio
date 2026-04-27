@@ -31,6 +31,10 @@ section {
   scroll-margin-top: 100px;
 }
 
+#menu {
+  scroll-margin-top: 30vh;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
