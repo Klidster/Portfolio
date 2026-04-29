@@ -72,14 +72,13 @@ section {
 }
 
 .hero {
-  min-height: 70vh;
+  min-height: 55vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 2rem;
-  background: linear-gradient(rgba(148, 145, 143, 0.78), rgba(102, 102, 102, 0.78)),
-              url("images/home-bg.jpg") center/cover no-repeat;
+  background-color: gray;
 }
 
 .hero-text {
@@ -153,46 +152,34 @@ section {
   margin-bottom: 2rem;
 }
 
-.project-grid {
-  max-width: 1200px;
-  margin: 0 auto;
+.project-section {
+  max-width: 1000px;
+  margin: 0 auto 2rem;
+  padding: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  grid-template-columns: 220px 1fr;
+  gap: 1.5rem;
+  align-items: center;
+  background-color: rgb(120, 120, 120);
+  border-radius: 14px;
 }
 
-.project-card {
-  background: gray;
-  border-radius: 18px;
-  overflow: hidden;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
-}
-
-.project-card img {
+.project-section img {
   width: 100%;
-  height: 220px;
+  height: 150px;
   object-fit: cover;
-  display: block;
+  border-radius: 10px;
 }
 
-.project-content {
-  padding: 1.25rem;
-  background-color: gray;
-}
-
-.project-content h3 {
+.project-section h3 {
   font-size: 1.6rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-family: Georgia, "Times New Roman", serif;
+  color: white;
 }
 
-.project-content p {
-  margin-bottom: 0.8rem;
+.project-section p {
+  margin-bottom: 0.5rem;
 }
 
 .footer {
@@ -248,4 +235,13 @@ section {
     font-size: 1rem;
     line-height: 1.8;
   }
+
+  .project-section {
+  grid-template-columns: 1fr;
+  text-align: center;
+    }
+
+    .project-section img {
+  height: 180px;
+    }
 }
