@@ -103,12 +103,17 @@ section {
   grid-template-columns: 0.9fr 1.1fr;
   align-items: stretch;
   max-width: 1200px;
-  margin: 4rem auto;
+  margin: 0 auto;
   background-color: rgb(158, 158, 158);
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   text-align: left;
+}
+
+.about-wrapper {
+  background-color: rgb(120, 120, 120);
+  padding: 4rem 2rem;
 }
 
 .about-image {
@@ -235,10 +240,9 @@ section {
     font-size: 3.2rem;
   }
 
-  .about {
-    grid-template-columns: 1fr;
-    margin: 3rem 1.5rem;
-  }
+    .about {  
+        grid-template-columns: 1fr;  margin: 0;
+    }
 
   .about-image {
     min-height: 280px;
