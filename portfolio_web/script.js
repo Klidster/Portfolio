@@ -6,12 +6,3 @@ if (menuToggle && navLinks) {
     navLinks.classList.toggle("show");
   });
 }
-
-const itemToggles = document.querySelectorAll(".item-toggle");
-
-itemToggles.forEach((toggle) => {
-  toggle.addEventListener("click", () => {
-    const card = toggle.parentElement;
-    card.classList.toggle("active");
-  });
-});

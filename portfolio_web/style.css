@@ -1,19 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+  background-color: gray;
+  color: white;
+  padding-top: 90px;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.nav-links a:hover {
+  color: rgb(212, 212, 212);
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.hero {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(rgba(148, 145, 143, 0.78), rgba(102, 102, 102, 0.78)),
+              url("images/home-bg.jpg") center/cover no-repeat;
+}
+
+.hero-text {
+  max-width: 850px;
+}
+
+.hero-title {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  align-items: stretch;
+  max-width: 1200px;
+  margin: 4rem auto;
+  background-color: rgb(158, 158, 158);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.about-image {
+  min-height: 340px;
+  background: url("images/about-bg.jpg") center/cover no-repeat;
+}
+
+.about-content {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-content h2,
+.page-title,
+.project-content h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: white;
+}
+
+.about-content h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-content p {
+  margin-bottom: 1.25rem;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
 .projects {
   padding: 4rem 2rem;
-  background-color: #f8f5f2;
+  background-color: gray;
 }
 
-.computer-card,
-.computer-vision-img {
-  background-image: url("assets/classification confusion matrix.png");
+.page-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
-.game-card,
-.game-img {
-  background-image: url("assets/games.png");
+.project-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
 }
 
-.graphics-card,
-.graphics-img {
-  background-image: url("assets/graphics1.png");
+.project-card {
+  background: gray;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+}
+
+.project-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.project-content {
+  padding: 1.25rem;
+  background-color: gray;
+}
+
+.project-content h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-content p {
+  margin-bottom: 0.8rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 230px;
+    padding: 1rem;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .hero-title {
+    font-size: 3.2rem;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    margin: 3rem 1.5rem;
+  }
+
+  .about-image {
+    min-height: 280px;
+  }
+
+  .about-content {
+    padding: 2rem 1.5rem;
+  }
+
+  .about-content h2 {
+    font-size: 2rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
 }

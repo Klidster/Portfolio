@@ -1,80 +1,148 @@
-<section class="hero" id="home">
-  <div class="hero-text">
-    <h1 class="hero-title">My Portfolio</h1>
-    <p>A collection of my coursework, programming projects, and creative technical work.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="logo">My Portfolio</a>
 
-    <div class="hero-cards" id="projects">
-      <a href="#computer-vision" class="hero-card computer-card">
-        <span>Computer Vision</span>
-      </a>
+      <ul class="nav-links">
+        <li><a href="#game">Game</a></li>
+        <li><a href="#coffee">Coffee Website</a></li>
+        <li><a href="#computer-vision">Computer Vision</a></li>
+        <li><a href="#human-ai">Human AI</a></li>
+        <li><a href="#graphics">Graphics</a></li>
+        <li><a href="#psyks">Psyks App</a></li>
+      </ul>
 
-      <a href="#game" class="hero-card game-card">
-        <span>Game Coursework</span>
-      </a>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+    </nav>
+  </header>
 
-      <a href="#graphics" class="hero-card graphics-card">
-        <span>Graphics Project</span>
-      </a>
-    </div>
-  </div>
-</section>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1 class="hero-title">My Portfolio</h1>
+        <p>
+          A collection of my coursework, programming projects, and creative
+          technical work across games, AI, graphics, web development, and apps.
+        </p>
+      </div>
+    </section>
 
-<section class="about" id="about">
-  <div class="about-image"></div>
+    <section class="about" id="about">
+      <div class="about-image"></div>
 
-  <div class="about-content">
-    <h2>About Me</h2>
-    <p>
-      I am a computing student building projects across AI, games, graphics,
-      mobile development, and human-computer interaction.
-    </p>
-    <p>
-      This portfolio brings together my strongest projects, showing the tools I
-      have used, the problems I have solved, and the type of work I enjoy creating.
-    </p>
-  </div>
-</section>
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+          I am a computing student interested in building practical, creative,
+          and interactive software projects.
+        </p>
+        <p>
+          This portfolio highlights the main projects I have worked on, including
+          game development, artificial intelligence, computer vision, graphics
+          programming, web development, and mobile app development.
+        </p>
+      </div>
+    </section>
 
-<section class="projects">
-  <div class="item-section">
-    <h2 class="page-title">Projects</h2>
+    <section class="projects" id="projects">
+      <h2 class="page-title">Projects</h2>
 
-    <div class="item-grid">
-      <article class="item-card" id="computer-vision">
-        <button class="item-toggle computer-vision-img">
-          <span class="item-name">Computer Vision</span>
-        </button>
-        <div class="item-description">
-          Built a MATLAB computer vision project using AI training methods to
-          classify images into different categories.
-          <br><br>
-          <strong>Tech:</strong> MATLAB
-        </div>
-      </article>
+      <div class="project-grid">
+        <article class="project-card" id="game">
+          <img src="assets/games.png" alt="Game coursework preview">
+          <div class="project-content">
+            <h3>Game Coursework</h3>
+            <p>
+              Created a full comedic narrative-driven 3D puzzle game in Unity as
+              part of my coursework. I am currently expanding and polishing it
+              with the goal of releasing it publicly.
+            </p>
+            <p><strong>Tech:</strong> Unity / C#</p>
+          </div>
+        </article>
 
-      <article class="item-card" id="game">
-        <button class="item-toggle game-img">
-          <span class="item-name">Game Coursework</span>
-        </button>
-        <div class="item-description">
-          Created a comedic narrative-driven 3D puzzle game in Unity, currently
-          being expanded and polished for public release.
-          <br><br>
-          <strong>Tech:</strong> Unity / C#
-        </div>
-      </article>
+        <article class="project-card" id="coffee">
+          <img src="images/home-bg.jpg" alt="Coffee website preview">
+          <div class="project-content">
+            <h3>Coffee Website</h3>
+            <p>
+              Created a café website with a fixed header, responsive navigation,
+              menu cards, image sections, and separate pages for coffee and
+              pastries.
+            </p>
+            <p><strong>Tech:</strong> HTML / CSS / JavaScript</p>
+          </div>
+        </article>
 
-      <article class="item-card" id="graphics">
-        <button class="item-toggle graphics-img">
-          <span class="item-name">Graphics Project</span>
-        </button>
-        <div class="item-description">
-          Developed an OpenGL project in C++ showcasing key computer graphics
-          programming fundamentals.
-          <br><br>
-          <strong>Tech:</strong> OpenGL / C++
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
+        <article class="project-card" id="computer-vision">
+          <img src="assets/classification confusion matrix.png" alt="Computer vision preview">
+          <div class="project-content">
+            <h3>Computer Vision</h3>
+            <p>
+              Built a MATLAB computer vision coursework project using AI training
+              methods to recognise patterns in images and separate them into
+              specific classes.
+            </p>
+            <p><strong>Tech:</strong> MATLAB</p>
+          </div>
+        </article>
+
+        <article class="project-card" id="human-ai">
+          <img src="assets/HAI.png" alt="Human AI interaction preview">
+          <div class="project-content">
+            <h3>Human-AI Interaction</h3>
+            <p>
+              Developed a Python AI chatbot that mainly handles restaurant
+              bookings while also responding to general enquiries and longer
+              conversations.
+            </p>
+            <p><strong>Tech:</strong> Python</p>
+          </div>
+        </article>
+
+        <article class="project-card" id="graphics">
+          <img src="assets/graphics1.png" alt="Graphics project preview">
+          <div class="project-content">
+            <h3>Graphics Project</h3>
+            <p>
+              Created a computer graphics project showcasing the fundamentals of
+              OpenGL graphics programming in C++.
+            </p>
+            <p><strong>Tech:</strong> OpenGL / C++</p>
+          </div>
+        </article>
+
+        <article class="project-card" id="psyks">
+          <img src="assets/psyks.png" alt="Psyks app preview">
+          <div class="project-content">
+            <h3>Psyks App</h3>
+            <p>
+              Developed a mobile application for storing songs, playing music,
+              and skipping through tracks in a similar way to other media
+              players.
+            </p>
+            <p><strong>Tech:</strong> JavaScript / Android Studio</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
