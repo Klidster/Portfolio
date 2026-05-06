@@ -3,12 +3,26 @@
 This repository is my portfolio hub. Each folder contains a separate project with its own code, assets, and documentation.
 
 ## Projects
+- [Portfolio Website](#portfolio-website)
 - [Computer Vision](#computer-vision)
 - [Game Project](#game-project)
 - [Cafe Website](#cafe-website)
 - [Graphics Project](#graphics-project)
 - [Human-AI Interaction](#human-ai-interaction)
 - [Mobile App](#mobile-app)
+
+---
+
+## Portfolio Website
+**Repository:** [Portfolio Website](https://github.com/Klidster/Portfolio/tree/main/portfolio_web)
+
+**Live Website:** [Link](https://kleidiportfolio.netlify.app/)
+
+**What it is:**  
+Created a straightforward portfolio website with responsive navigation, image sections,
+and a clean layout, deployed live using Netlify.
+
+**Tech:** HTML/CSS/JavaScript/Netlify
 
 ---
 
@@ -46,11 +60,13 @@ publicly.
 ## Cafe Website
 **Repository:** [Cafe Website](https://github.com/Klidster/Cafe-Website.git)
 
+**Live Website:** [Link](https://cafelehte.netlify.app/)
+
 **What it is:**  
 Created a cafe website with responsive navigation, menu pages, image sections,
-and a clean layout.
+and a clean layout, deployed live using Netlify.
 
-**Tech:** HTML/CSS/JavaScript
+**Tech:** HTML/CSS/JavaScript/Netlify
 
 **Media:**  
 ![Computer Vision Preview](<./assets/home-bg.png>)
