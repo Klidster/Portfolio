@@ -6,6 +6,7 @@ This repository is my portfolio hub. Each folder contains a separate project wit
 - [Portfolio Website](#portfolio-website)
 - [Computer Vision](#computer-vision)
 - [Game Project](#game-project)
+- [ShouldIGoOutside API Website](#shouldigooutside-api-website)
 - [Cafe Website](#cafe-website)
 - [Graphics Project](#graphics-project)
 - [Human-AI Interaction](#human-ai-interaction)
@@ -19,7 +20,7 @@ This repository is my portfolio hub. Each folder contains a separate project wit
 **Live Website:** [Link](https://kleidiportfolio.netlify.app/)
 
 **What it is:**  
-Created a straightforward portfolio website with responsive navigation, image sections,
+Created a straightforward portfolio website with responsive navigation, image sections
 and a clean layout, deployed live using Netlify.
 
 **Tech:** HTML/CSS/JavaScript/Netlify
@@ -47,13 +48,32 @@ images and separate the images into specific classes
 **Repository:** [Game Project](https://github.com/Klidster/Game-Project.git)
 
 **What it is:**  
-Created a full comedic narrative driven 3D puzzle game in Unity, and I’m currently expanding and polishing it with the goal of releasing it
+Created a full comedic narrative driven 3D puzzle game in Unity and I’m currently expanding and polishing it with the goal of releasing it
 publicly.
 
 **Tech:** Unity / C#
 
 **Media:**  
 ![Game Preview](<./assets/games.png>)
+
+---
+
+## ShouldIGoOutside API Website
+**Repository:** [ShouldIGoOutside API Website](https://github.com/Klidster/API-Comfort-Checker-Website)
+
+**Live Website:** [Link](https://shouldigooutside.netlify.app)
+
+**What it is:**  
+Created a weather comfort checker website where users can enter a city and get a simple comfort score based on temperature, rain risk, wind and walking
+conditions. The site uses a clean responsive layout, mobile navigation and a
+backend API route that connects to weather data and returns an easy-to-read
+score.
+
+**Tech:** HTML/CSS/JavaScript/Node/Express/Open-Meteo API/Netlify
+
+**Media:**  
+![ShouldIGoOutside Preview](<./assets/home-preview.png>)
+![Comfort Checker Preview](<./assets/checker-preview.png>)
 
 ---
 
