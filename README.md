@@ -4,6 +4,7 @@ This repository is my portfolio hub. Each folder contains a separate project wit
 
 ## Projects
 - [Portfolio Website](#portfolio-website)
+- [Google Course Agentic Website](#google-course-agentic-website)
 - [Computer Vision](#computer-vision)
 - [Game Project](#game-project)
 - [ShouldIGoOutside API Website](#shouldigooutside-api-website)
@@ -24,6 +25,16 @@ Created a straightforward portfolio website with responsive navigation, image se
 and a clean layout, deployed live using Netlify.
 
 **Tech:** HTML/CSS/JavaScript/Netlify
+
+---
+
+## Google Course Agentic Website
+**Repository:** [Google Course Agentic Website](https://github.com/Klidster/Google-Vibe-Coding-Course/tree/main/Google-Vibe-Coding-Project/expense-agent)
+
+**What it is:**  
+Completed the 5-Day AI Agents: Intensive Vibe Coding Course With Google, last day resulting in a project where I deployed an agent to runtime on Google Cloud using AntiGravity and linked it to frontend website. 
+
+**Tech:** AntiGravity / Google Cloud
 
 ---
 
@@ -67,9 +78,9 @@ publicly.
 Created a weather comfort checker website where users can enter a city and get a simple comfort score based on temperature, rain risk, wind and walking
 conditions. The site uses a clean responsive layout, mobile navigation and a
 backend API route that connects to weather data and returns an easy-to-read
-score.
+score. Also incorporates automatic Jest tests for the backend logic for reliable quality assurance.
 
-**Tech:** HTML/CSS/JavaScript/Node/Express/Open-Meteo API/Netlify
+**Tech:** HTML/CSS/JavaScript/Node/Express/Open-Meteo API/Jest/Netlify
 
 **Media:**  
 ![ShouldIGoOutside Preview](<./assets/home-preview.png>)
